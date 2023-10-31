@@ -1,0 +1,43 @@
+.buscar{
+    margin-top: 534px;
+}
+
+.buscar-bg{
+    background: rgba(252, 121, 0, 0.80);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.form-buscar{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+
+.form-buscar label{
+    display: block;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    font-family: Inter;
+    font-size: 20px;
+    grid-column: 1/-1;
+}
+
+.form-buscar a{
+    background-color: var(--laranja);
+    color: white;
+    padding: 19px 69px;
+    border-radius: 0px 10px 10px 0px;
+    display: inline-block;
+}
+
+.form-buscar input{
+    padding: 25px 0px 25px 0px;
+    font-size: 14px;
+    max-width: 1010px;
+    border: none;
+}
+
+.form-buscar input[placeholder]{
+    padding-left: 50px;
+}

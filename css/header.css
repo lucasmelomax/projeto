@@ -1,0 +1,28 @@
+.header-bg{
+    background-color: #fff;
+}
+
+.header-bg .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+}
+
+.header-bg .container ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 34px;
+}
+
+.header-bg a{
+color: var(--laranja);
+}
+
+.ultimo-a{
+    background-color: var(--laranja);
+    color: #fff!important;
+    padding: 0px 38px 0px 38px;
+    border-radius: 22px;
+}
+

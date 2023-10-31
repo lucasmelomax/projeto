@@ -1,0 +1,57 @@
+/* Cores */
+
+:root {
+  --laranja: #fc7900;
+  --cinza: #686868;
+  --amarelo: #f2ce0e;
+  --cinza-claro: #d1d1d1;
+  --preto: #121212;
+  --azul: #1598e2;
+  --verde: #0a6f14;
+  --branco: #fafafa;
+}
+
+/* Utilitarios */
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.roboto {
+  font-family: Roboto;
+}
+
+.roboto-condensed {
+  font-family: Roboto Condensed;
+}
+
+.inter {
+  font-family: Inter;
+}
+
+.font-32, h1 {
+    font-size: 32px;
+}
+
+.font-28, h2 {
+    font-size: 28px;    
+}
+
+.font-24, h3 {
+    font-size: 24px;
+}
+
+.font-20, h4 {
+    font-size: 20px;
+}
+
+.font-16, p{
+    font-size: 16px;
+}
+
+.font-15, span{
+    font-size: 15px;
+}

@@ -1,0 +1,33 @@
+@import url(header.css);
+@import url(utilitario.css);
+@import url(projetos.css);
+@import url(buscar.css);
+
+/* Fontes */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto+Condensed:wght@500;600&family=Roboto:wght@500&display=swap");
+
+/* Global */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul, li{
+    list-style: none;
+}
+
+iframe{
+    width: 100%;
+    height: 621px;
+}
