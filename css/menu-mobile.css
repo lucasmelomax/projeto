@@ -1,0 +1,52 @@
+[data-menu="btn"] {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  [data-menu="btn"] {
+    display: flex;
+    background-color: #fc7900;
+    border: none;
+    padding: 20px;
+    border-radius: 4px;
+    z-index: 201;
+    position: relative;
+    cursor: pointer;
+  }
+
+  [data-menu="btn"]::before {
+    content: "";
+    display: inline-block;
+    background-color: white;
+    width: 16px;
+    height: 3px;
+    box-shadow: 0 6px #fff, 0 -6px #fff;
+    transition: transform .3s;
+  }
+
+  [data-menu="btn"].ativo::before {
+    transform: rotate(90deg);
+  }
+
+  .header-bg .container{
+    flex-direction: row-reverse;
+    padding: 20px;
+  }
+
+  .header-bg .container ul{
+    display: none;
+    position: absolute;
+    padding: 120px 0px 30px 20px;
+    flex-direction: column;
+    background-color: #ffffff;
+    width:200px;
+    left: 0px;
+    top: 0px;
+    z-index: 200;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,.2);
+  }
+
+  .header-bg .container ul.ativo{
+    display: flex;
+  }
+}

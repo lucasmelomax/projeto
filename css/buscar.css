@@ -41,3 +41,9 @@
 .form-buscar input[placeholder]{
     padding-left: 50px;
 }
+
+@media (max-width: 1200px){
+    .buscar{
+        margin-top: 100px;
+    }
+}
